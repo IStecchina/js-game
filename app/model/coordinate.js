@@ -17,7 +17,6 @@
             || this.top + this.height < c.top
             || c.top + c.height < this.top
         
-        if(!result) alert('CRASH!!!!!!');
         return !result;
     }
 }
